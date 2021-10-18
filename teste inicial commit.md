@@ -1,1 +1,3 @@
-inicial commit.md
+inicial commit
+
+abrir comandos
