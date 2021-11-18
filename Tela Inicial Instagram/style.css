@@ -1,0 +1,142 @@
+. {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body {
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgb(243,243,243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.pagina-instagram{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    width: 55%;
+    height: 100vh;
+}
+.bloco1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    min-height: 34rem;
+}       
+.bloco2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    min-height: 34rem;
+}
+.imagem-telefone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170%;
+    height: 40rem;
+}
+.grupo {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;    
+    flex-direction: column;
+    background-color: #fff;
+    width: 90%;
+    padding: 0;
+    border: 1px solid lightgray;
+}
+.logo-instagram {
+    display: flex;
+    align-items: center;
+    width: 10rem;
+}
+.foto {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+ }
+ .login {
+    background-color: #0095f6;
+    margin-top: 1rem;
+    color: blanchedalmond;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration-line: none;
+ }
+ .logout{
+    text-decoration-line: none;
+    color: #0095f6;
+    margin: 1rem;
+ }
+ .nao-conta{
+     color:rgb(160, 160, 160)
+ }
+ .nota-conta{
+     margin: 1rem 0;
+ }
+ .link-blue{
+     color: #0095f6;
+ }
+.get-app{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.app-store{
+    width: 8rem;
+}
+.app-google-play{
+    width: 8rem;
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+
+/* Média Queries */
+
+
+@media (max-width: 1024px) {
+    .pagina-instagram {
+        width: 90%;
+    }
+}
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .pagina-instagram {
+        width: 90%;
+    }
+
+    .imagem-telefone {
+        display: none;
+    }
+    .bloco1{
+        display: none;
+    }
+
+    .bloco2 {
+        width: 100%;
+    }
+    
+    .grupo {
+        border: 1px solid transparent;
+    }
+}
